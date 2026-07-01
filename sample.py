@@ -61,3 +61,10 @@ def cosine(angle) :
 def tangent(angle) :
     import math
     return math.tan(math.radians(angle))
+
+
+def factorial(n) :
+    import math
+    if n < 0:
+        raise ValueError("Factorial is not defined for negative numbers.")
+    return math.factorial(n)
