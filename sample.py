@@ -56,3 +56,8 @@ def sine(angle) :
 def cosine(angle) :
     import math
     return math.cos(math.radians(angle))
+
+
+def tangent(angle) :
+    import math
+    return math.tan(math.radians(angle))
