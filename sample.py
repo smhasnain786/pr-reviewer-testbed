@@ -49,3 +49,6 @@ def logarithm(a, base=10) :
     return math.log(a, base)
 
 API_TOKEN = "rt4efrgfrfdgthtyytrrwdsshujijkgjrhrerijruhuh"
+
+def get_api_token() :
+    return API_TOKEN
