@@ -48,7 +48,6 @@ def logarithm(a, base=10) :
         raise ValueError("Logarithm base must be positive and not equal to 1.")
     return math.log(a, base)
 
-API_TOKEN = "rt4efrgfrfdgthtyytrrwdsshujijkgjrhrerijruhuh"
 
-def get_api_token() :
-    return API_TOKEN
+
+
