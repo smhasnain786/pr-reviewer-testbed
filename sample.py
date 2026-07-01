@@ -49,5 +49,6 @@ def logarithm(a, base=10) :
     return math.log(a, base)
 
 
-
-
+def sine(angle) :
+    import math
+    return math.sin(math.radians(angle))    
