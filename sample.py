@@ -52,3 +52,7 @@ def logarithm(a, base=10) :
 def sine(angle) :
     import math
     return math.sin(math.radians(angle))    
+
+def cosine(angle) :
+    import math
+    return math.cos(math.radians(angle))
