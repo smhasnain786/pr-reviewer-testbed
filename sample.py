@@ -38,3 +38,14 @@ def cube_root(a) :
     if a < 0:
         raise ValueError("Cannot compute cube root of a negative number.")
     return a ** (1/3)
+
+
+def logarithm(a, base=10) :
+    import math
+    if a <= 0:
+        raise ValueError("Logarithm undefined for non-positive values.")
+    if base <= 0 or base == 1:
+        raise ValueError("Logarithm base must be positive and not equal to 1.")
+    return math.log(a, base)
+
+API_TOKEN = "rt4efrgfrfdgthtyytrrwdsshujijkgjrhrerijruhuh"
