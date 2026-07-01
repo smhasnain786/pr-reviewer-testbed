@@ -48,4 +48,23 @@ def logarithm(a, base=10) :
         raise ValueError("Logarithm base must be positive and not equal to 1.")
     return math.log(a, base)
 
-API_TOKEN = "rt4efrgfrfdgthtyytrrwdsshujijkgjrhrerijruhuh"
+
+def sine(angle) :
+    import math
+    return math.sin(math.radians(angle))    
+
+def cosine(angle) :
+    import math
+    return math.cos(math.radians(angle))
+
+
+def tangent(angle) :
+    import math
+    return math.tan(math.radians(angle))
+
+
+def factorial(n) :
+    import math
+    if n < 0:
+        raise ValueError("Factorial is not defined for negative numbers.")
+    return math.factorial(n)
