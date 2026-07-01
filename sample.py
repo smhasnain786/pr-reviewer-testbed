@@ -33,3 +33,8 @@ def square_root(a) :
     if a < 0:
         raise ValueError("Cannot compute square root of a negative number.")
     return a ** 0.5
+
+def cube_root(a) :
+    if a < 0:
+        raise ValueError("Cannot compute cube root of a negative number.")
+    return a ** (1/3)
